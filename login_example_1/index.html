@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Agustín González Sas">
+    <meta description="Login, HTML, CSS">
+    <title>Login Example - 1</title>
+
+    <!--Link to the stylesheet-->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!--Container generic-->
+    <div class="container">
+        <div class="box">
+            <!--Starting the form-->
+            <form action="#" method="GET">
+                <!--Section for the icon-->
+                <div class="icon">
+                    <img src="./img/user.png" id="firsticon">
+                </div>
+
+                <!--Section for the text-->
+                <div class="text">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter your Username or mail" name="uname" required>
+
+                    <label for="passwd">Password</label>
+                    <input type="password" placeholder="Enter your Password" name="passwd" required>
+
+                    <button type="submit">Login</button>
+                </div>
+
+                <!--Section for the Cancel button-->
+                <div class="options">
+                    <button type="button" class="cancelbutton">Cancel</button>
+                    <span class="forgot">Forgot <a href="#">Password?</a></span>
+                </div>
+
+            </form>
+        </div>
+        
+        <!--The second box near-->
+        <div class="box2">
+            <h1>Doing some tests with HTML and CSS</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem vel quam ducimus, repellat est officiis eum repellendus voluptas, aut possimus hic aperiam delectus. Animi perspiciatis maxime possimus accusantium amet adipisci!</p>
+            <!--Sign up?-->
+            <div class="signIn">
+                <span class="registered">Don't have an account?</span> <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

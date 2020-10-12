@@ -1,0 +1,112 @@
+@media screen and (max-width: 2080px) {
+
+    /*Generic Modifications*/
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#FBFCFC, #f8f9f9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.box {
+    background: linear-gradient(#FFFF, #FDFEFE  );
+    text-align: center;
+    position: relative;
+    float: left;
+    padding: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFF;
+    box-shadow: 2px 2px 2px 2px #CCD1D1;
+    width: 15%;
+    border-radius: 2%;
+}
+
+.box2 {
+    position: relative;
+    background-color: #45818e;
+    color: white;
+    width: 60%;
+    padding: 5%;
+    box-shadow: 5px 5px 5px 5px #CCD1D1;
+}
+
+#firsticon {
+    width: 50%;
+    border-radius: 25%;
+    margin-bottom: 30%;
+}
+
+.text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.text input {
+    width: 100%;
+    border: none;
+    padding: 2%;
+    border-bottom: 2px solid #45818e;
+    margin-bottom: 10%;
+}
+
+.text input:focus {
+    border: none;
+}
+
+.text button {
+    width: 80%;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #45818e;
+    border: none;
+    color: white;
+    padding: 3%;
+    border-radius: 5%;
+}
+
+.options {
+    margin-top: 30%;
+}
+
+.options button{
+    background-color: #45818e;
+    border: none;
+    color: white;
+    padding: 3%;
+    margin-right: 10%;
+    border-radius: 5%;
+}
+
+.options a {
+    color: #45818e;
+}
+
+}
+
+.signIn {
+    margin-top: 10%;
+}
+
+.signIn a {
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    /*Poner el contenido aquí.*/
+}
+
+@media screen and (max-width: 320px) {
+    /*Poner el contenido aquí.*/
+}
