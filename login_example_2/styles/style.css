@@ -1,5 +1,6 @@
 body {
-    background-image: url(../img/background.jpg);
+    box-sizing: border-box;
+    background: linear-gradient(#EAECEE, #eaecee);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
@@ -8,18 +9,75 @@ body {
 }
 
 .container {
+    color:  #424949;
     background: linear-gradient(#FFFF,  #f8f9f9 );
     height: 400px;
-    width: 400px;
+    width: 600px;
     border-radius:10px;
     float: left;
     position: relative;
+    margin: 15% 0 10% 15%;
 }
 
 .box {
     padding: 5%;
+    width: 100%;
+}
+
+.box input[type="text"], input[type="password"] {
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid #424949 ;
+    margin-top: 5%;
+    display: grid;
+}
+
+.box input[type="text"], input[type="password"] {
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+.box input:focus {
+    width: 80%;
+    border-bottom: 1px solid #2ecc71 ;
+}
+
+#sendButton {
+    border: none;
+    border-radius: 25px;
+    background-color: #eaecee  ;
+    height: 25px;
+    width: 200px;
 }
 
 .box h2 {
     text-transform: uppercase;
+}
+
+.littlebox {
+    display: flex;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+
+    .littebox label, input[type="checkbox"]{
+        width: 40%;
+        display: inline-flex;
+    }
+
+.boxcontainer button {
+    color: #FFF;
+    background-color:  #cb4335 ;
+    border: none;
+    width: 100%;
+    padding-bottom: 10%;
+    border-radius: 0 0 10px 10px;
+    font-size: 25px;
+    padding-top: 12%;
+}
+
+.boxcontainer button:hover {
+    background-color: #a93226;
 }
