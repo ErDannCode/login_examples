@@ -1,4 +1,4 @@
-# login_examples
+# Login Examples for webpages
 
 I am creating some examples for a login to practice in web development, you can see them all, or even use them! The code warns that it may be a bit dirty, but I will be constantly modifying them and adding some content to them.
 
