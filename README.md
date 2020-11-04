@@ -8,6 +8,8 @@ I am creating some examples for a login to practice in web development, you can 
 
 Everything you are going to see is mainly created to practice frontend development, and in the future maybe even add JavaScript in some LOGINs, but the idea is usually with CSS and HTML.
 
+---
+
 ### License
 
 This project is under the [MIT License](./LICENSE.md)
